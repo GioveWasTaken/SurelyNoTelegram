@@ -11,6 +11,9 @@
 		852DF4E92BB1B594004B3981 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852DF4E82BB1B594004B3981 /* ContentView.swift */; };
 		852DF4EB2BB1B595004B3981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852DF4EA2BB1B595004B3981 /* Assets.xcassets */; };
 		852DF4EF2BB1B595004B3981 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852DF4EE2BB1B595004B3981 /* Preview Assets.xcassets */; };
+		852DF4F62BB1B60E004B3981 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852DF4F52BB1B60E004B3981 /* Chat.swift */; };
+		852DF4F82BB1B63F004B3981 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852DF4F72BB1B63F004B3981 /* ChatView.swift */; };
+		852DF4FA2BB1B7BC004B3981 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852DF4F92BB1B7BC004B3981 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		852DF4EA2BB1B595004B3981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		852DF4EC2BB1B595004B3981 /* SurelyNoTelegram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SurelyNoTelegram.entitlements; sourceTree = "<group>"; };
 		852DF4EE2BB1B595004B3981 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		852DF4F52BB1B60E004B3981 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		852DF4F72BB1B63F004B3981 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		852DF4F92BB1B7BC004B3981 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		852DF4E52BB1B594004B3981 /* SurelyNoTelegram */ = {
 			isa = PBXGroup;
 			children = (
+				852DF4F92BB1B7BC004B3981 /* Message.swift */,
+				852DF4F72BB1B63F004B3981 /* ChatView.swift */,
+				852DF4F52BB1B60E004B3981 /* Chat.swift */,
 				852DF4E62BB1B594004B3981 /* SurelyNoTelegramApp.swift */,
 				852DF4E82BB1B594004B3981 /* ContentView.swift */,
 				852DF4EA2BB1B595004B3981 /* Assets.xcassets */,
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852DF4F82BB1B63F004B3981 /* ChatView.swift in Sources */,
 				852DF4E92BB1B594004B3981 /* ContentView.swift in Sources */,
+				852DF4FA2BB1B7BC004B3981 /* Message.swift in Sources */,
+				852DF4F62BB1B60E004B3981 /* Chat.swift in Sources */,
 				852DF4E72BB1B594004B3981 /* SurelyNoTelegramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
